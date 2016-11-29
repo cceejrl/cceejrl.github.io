@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://sharingstack.com/tags/index.html</loc>
+    
+    <lastmod>2016-11-29T13:06:13.316Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://sharingstack.com/categories/index.html</loc>
+    
+    <lastmod>2016-11-29T13:00:35.349Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://sharingstack.com/about/index.html</loc>
+    
+    <lastmod>2016-11-29T12:57:39.763Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://sharingstack.com/README.html</loc>
     
     <lastmod>2016-11-29T07:36:27.452Z</lastmod>
