@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://sharingstack.com/"/>
-  <updated>2016-11-29T01:22:57.791Z</updated>
+  <updated>2016-11-29T02:53:36.380Z</updated>
   <id>http://sharingstack.com/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My test</title>
+    <link href="http://sharingstack.com/2016/11/29/My-test/"/>
+    <id>http://sharingstack.com/2016/11/29/My-test/</id>
+    <published>2016-11-29T02:52:15.000Z</published>
+    <updated>2016-11-29T02:53:36.380Z</updated>
+    
+    <content type="html"><![CDATA[<p>Just a test of Hexo agent.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Just a test of Hexo agent.&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
