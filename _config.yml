@@ -4,15 +4,15 @@
 
 # Site
 title: JRL's Blog
-subtitle:
+subtitle: 士不可以不弘毅，任重而道远！
 description:
-author: John Doe
+author: JRL
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://sharingstack.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -71,3 +71,4 @@ deploy:
   type: git
   repo: https://github.com/cceejrl/cceejrl.github.io.git
   branch: master
+
