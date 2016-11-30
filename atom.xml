@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://sharingstack.com/"/>
-  <updated>2016-11-29T07:15:27.251Z</updated>
+  <updated>2016-11-30T14:33:48.409Z</updated>
   <id>http://sharingstack.com/</id>
   
   <author>
@@ -16,9 +16,56 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>testurl</title>
+    <link href="http://sharingstack.com/blog/testurl/"/>
+    <id>http://sharingstack.com/blog/testurl/</id>
+    <published>2016-11-30T14:33:34.000Z</published>
+    <updated>2016-11-30T14:33:48.409Z</updated>
+    
+    <content type="html"><![CDATA[<p>tes </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;tes &lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一丛花令</title>
+    <link href="http://sharingstack.com/blog/%E4%B8%80%E4%B8%9B%E8%8A%B1%E4%BB%A4/"/>
+    <id>http://sharingstack.com/blog/一丛花令/</id>
+    <published>2016-11-30T14:20:53.000Z</published>
+    <updated>2016-11-30T14:24:02.180Z</updated>
+    
+    <content type="html"><![CDATA[<p>一丛花令·枉凝眉</p>
+<p>遄行客路欲何穷，野马啸东风。<br>故园西巷秋千荡，未旋踵、柳絮蒙蒙。<br>历历沉思，笑颜依旧，盟誓转头空。</p>
+<p>凄凄雨夜意朦胧，此念几时终。<br>恍惚身在红楼里，道不尽、水月花容。<br>牵挂虚劳，夜啼应景，还是去年雄？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一丛花令·枉凝眉&lt;/p&gt;
+&lt;p&gt;遄行客路欲何穷，野马啸东风。&lt;br&gt;故园西巷秋千荡，未旋踵、柳絮蒙蒙。&lt;br&gt;历历沉思，笑颜依旧，盟誓转头空。&lt;/p&gt;
+&lt;p&gt;凄凄雨夜意朦胧，此念几时终。&lt;br&gt;恍惚身在红楼里，道不尽、水月花容。&lt;br&gt;牵挂虚劳，夜啼应景，还是去年雄？&lt;/p
+    
+    </summary>
+    
+      <category term="附庸风雅" scheme="http://sharingstack.com/categories/%E9%99%84%E5%BA%B8%E9%A3%8E%E9%9B%85/"/>
+    
+    
+      <category term="宋词" scheme="http://sharingstack.com/tags/%E5%AE%8B%E8%AF%8D/"/>
+    
+  </entry>
+  
+  <entry>
     <title>求职笔记</title>
-    <link href="http://sharingstack.com/2016/11/29/%E6%B1%82%E8%81%8C%E7%AC%94%E8%AE%B0/"/>
-    <id>http://sharingstack.com/2016/11/29/求职笔记/</id>
+    <link href="http://sharingstack.com/blog/%E6%B1%82%E8%81%8C%E7%AC%94%E8%AE%B0/"/>
+    <id>http://sharingstack.com/blog/求职笔记/</id>
     <published>2016-11-29T07:09:53.000Z</published>
     <updated>2016-11-29T07:15:27.251Z</updated>
     
@@ -39,8 +86,8 @@
   
   <entry>
     <title>Another test</title>
-    <link href="http://sharingstack.com/2016/11/29/Another-test/"/>
-    <id>http://sharingstack.com/2016/11/29/Another-test/</id>
+    <link href="http://sharingstack.com/blog/Another-test/"/>
+    <id>http://sharingstack.com/blog/Another-test/</id>
     <published>2016-11-29T03:13:59.000Z</published>
     <updated>2016-11-29T03:17:03.474Z</updated>
     
@@ -58,8 +105,8 @@
   
   <entry>
     <title>First Blog</title>
-    <link href="http://sharingstack.com/2016/11/29/First-Blog/"/>
-    <id>http://sharingstack.com/2016/11/29/First-Blog/</id>
+    <link href="http://sharingstack.com/blog/First-Blog/"/>
+    <id>http://sharingstack.com/blog/First-Blog/</id>
     <published>2016-11-29T02:59:01.000Z</published>
     <updated>2016-11-29T03:00:34.067Z</updated>
     
