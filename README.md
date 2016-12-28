@@ -1,4 +1,0 @@
-
-# My git pages
-
-    --JRL
