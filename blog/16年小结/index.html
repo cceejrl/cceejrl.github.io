@@ -1,0 +1,678 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="总结," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="很快，这2016年就要过去了。回头盘点一二，权作总结与个人激励。
+技术这两年看了不少书，不过算到今年来说，书看的却并不多——似乎有了点无招胜有招的味道（老脸一红）——而是把更多的空闲时间放在思考上面了。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="16年小结">
+<meta property="og:url" content="http://sharingstack.com/blog/16年小结/index.html">
+<meta property="og:site_name" content="静渊阁">
+<meta property="og:description" content="很快，这2016年就要过去了。回头盘点一二，权作总结与个人激励。
+技术这两年看了不少书，不过算到今年来说，书看的却并不多——似乎有了点无招胜有招的味道（老脸一红）——而是把更多的空闲时间放在思考上面了。">
+<meta property="og:updated_time" content="2016-12-29T06:54:10.292Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="16年小结">
+<meta name="twitter:description" content="很快，这2016年就要过去了。回头盘点一二，权作总结与个人激励。
+技术这两年看了不少书，不过算到今年来说，书看的却并不多——似乎有了点无招胜有招的味道（老脸一红）——而是把更多的空闲时间放在思考上面了。">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://sharingstack.com/blog/16年小结/"/>
+
+
+
+
+
+  <title> 16年小结 | 静渊阁 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?b5a512ba45961b5fa732a6fb6a625c2c";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">静渊阁</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://sharingstack.com/blog/16年小结/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="JRL">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.png">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="静渊阁">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="静渊阁" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                16年小结
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-28T18:18:41+08:00">
+                2016-12-28
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>很快，这2016年就要过去了。回头盘点一二，权作总结与个人激励。</p>
+<h1 id="技术"><a href="#技术" class="headerlink" title="技术"></a>技术</h1><p>这两年看了不少书，不过算到今年来说，书看的却并不多——似乎有了点无招胜有招的味道（老脸一红）——而是把更多的空闲时间放在思考上面了。</p>
+<a id="more"></a>
+<p>不过这里提几本书，一本是<a href="www.chenshuo.com">陈硕</a>大神的<a href="https://book.douban.com/subject/20471211/" target="_blank" rel="external">《Linux多线程服务端编程·使用muduo C++网络库》</a>，然而说实话，犹豫APUE没啃到位，加之工程实践方面的经验不足，该大作无法全部领会其精要。就可以读懂的内容来说，其间真意，不愧为大师匠心。</p>
+<p>刚才也提到了，APUE这部神作，邂逅稍晚，加之时间有限，并没有很好的啃完，挑着看了些，欠缺依旧，终得找个时间补回来才是。</p>
+<p>原本想捣鼓下STL源码，也确实捣鼓了一周左右，不过终究没有坚持下去，这也总是个债。</p>
+<p>至于其他，把Python捡回来了，应同学之请，写个C代码格式化脚本，然而写到后来发现简直是要写C语言的解释器，之后不了了之，也是个遗憾。</p>
+<p>——似乎技术一道，并没有如自己认为的那样沉住气、沉下心来进行积淀，万不可取。</p>
+<h1 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h1><p>回来读研，终究是为了给自己一个新的开始——就这点而言，这两年多的苦还算是没有白吃。</p>
+<p>历经一个月左右，发现自己还是自视甚高，最终想去的单位地方未能去到，颇为遗憾。</p>
+<p>提前批杀进B终面，说好了一周左右联系，然而并木有然后了；A直接笔试跪了，也没啥好说；T一面后只能提供北京深圳岗位，我坚持要去上海，然后就木有然后了（简直完全没有议价能力）；DJI终面面试官用的是最初版简历上的一个我后来删除了的项目，完全没准备，直接被问到懵逼，感谢美丽的ZT HR给我争取了第二次终面机会，可惜表现的差强人意，结果自然跪了。</p>
+<p>这里要提到一个成都的手游公司<a href="www.tap4fun.com">Tap4Fun</a>，各方面跟我契合的没的说，然而由于国庆把脚给扭了，导致BOSS面一拖再拖，最终终面日期跟我目前卖身单位签约日期冲突，遗憾的错过了，这里给美丽的HR BB姐表示歉意。</p>
+<p>总结下卖身的过程，发现各大厂果然给了实习经验很高的权重。可惜实验室不许外出实习，错失了不少机会。就个人而言，又无有影响力的开源项目，加之学校实力一般，校招时的尴尬就体现出来了。</p>
+<h1 id="健身"><a href="#健身" class="headerlink" title="健身"></a>健身</h1><p>因伤退出行伍，在最开始的两年间甚是苦逼，一致于差点沦落街头，多谢众亲友援手，方能停过那些难关。</p>
+<p>伤愈之后，大概有一年半的时间未曾锻炼，后来于研究生入学前重新抓起，开始系统性恢复体能。</p>
+<p>最初跑跑三公里，练练单双杠，不过第一个三公里貌似是在14.5月才终于重新跑完，那会儿真正体会到健康的重要。</p>
+<p>在基本上小阶段的恢复体能之后，开始了形体的雕琢。入门是以《囚徒健身》为蓝本，加上了一些合适自己方式。</p>
+<p>不过彼时心情不佳，感觉循序渐进的囚徒方式不大适合自己，于是寻求它法，并最选择了腹肌撕裂者。</p>
+<p>从最开始的每组撕裂者完成不了15个，到三个月后一个小时内就可以将每组撕裂者做到35个，此外还要加上约200俯卧撑，30个单双杠——所有这些都是在至少三公里热身之后完成——现在想想也是够拼的。</p>
+<p>基础的形状出来后，并没有雕琢细节，一直持续至今。</p>
+<p>大概诸事已定，加之整天窝在电脑跟前，肚皮上有点儿讨厌的皮脂，于是乎于20天前开始细节雕琢。</p>
+<p>不过天冷，去健身房比较麻烦，就在宿舍进行，基本上每天晚上1小时无氧。</p>
+<p>20天下来，略有效果，共勉。</p>
+<h1 id="驾考"><a href="#驾考" class="headerlink" title="驾考"></a>驾考</h1><p>本科时间那么多，然而并无后悔药。</p>
+<p>去年七月份就报了名，然而一直到今年11月下旬才开始学习，计划今年结束前拿证，然而···</p>
+<p>其实跪在了科三上：第一把忘了松手刹；第二把我正在变道，来个语音：请完成直线行驶···</p>
+<p>心态倒很好，不过太大意了，争取农历新年前吧。</p>
+<h1 id="情感"><a href="#情感" class="headerlink" title="情感"></a>情感</h1><p>汪汪汪···</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/总结/" rel="tag"># 总结</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/blog/一丛花令/" rel="next" title="一丛花令">
+                <i class="fa fa-chevron-left"></i> 一丛花令
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.png"
+               alt="JRL" />
+          <p class="site-author-name" itemprop="name">JRL</p>
+          <p class="site-description motion-element" itemprop="description">士不可以不弘毅</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#技术"><span class="nav-number">1.</span> <span class="nav-text">技术</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#工作"><span class="nav-number">2.</span> <span class="nav-text">工作</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#健身"><span class="nav-number">3.</span> <span class="nav-text">健身</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#驾考"><span class="nav-number">4.</span> <span class="nav-text">驾考</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#情感"><span class="nav-number">5.</span> <span class="nav-text">情感</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">JRL</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+	
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+
+</body>
+</html>
