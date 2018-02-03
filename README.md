@@ -1,3 +1,4 @@
-- JRL's Blog
 
-	
+# My git pages
+
+    --JRL

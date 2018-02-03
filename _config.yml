@@ -3,18 +3,22 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: JRL's Blog
-subtitle: 士不可以不弘毅，任重而道远！
-description:
+title: 静渊阁
+subtitle:
+description: 士不可以不弘毅
 author: JRL
-language:
+language: zh-Hans
 timezone:
+
+# 头像设置
+avatar: /images/avatar.png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://sharingstack.com
 root: /
-permalink: :year/:month/:day/:title/
+#permalink: :year/:month/:day/:title/
+permalink: blog/:title/
 permalink_defaults:
 
 # Directory
@@ -40,7 +44,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true # false
   tab_replace:
 
 # Category & Tag
@@ -69,6 +73,8 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/cceejrl/cceejrl.github.io.git
-  branch: master
+  repo: git@github.com:cceejrl/cceejrl.github.io.git
+  # branch:
+
+baidu_analytics: b5a512ba45961b5fa732a6fb6a625c2c
 
