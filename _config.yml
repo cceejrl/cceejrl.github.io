@@ -73,7 +73,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:cceejrl/cceejrl.github.io.git,master
-  # branch:
+  repo: git@github.com:cceejrl/cceejrl.github.io.git
+  branch: master
 
 baidu_analytics: b5a512ba45961b5fa732a6fb6a625c2c

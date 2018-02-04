@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://sharingstack.com/"/>
-  <updated>2018-02-04T08:28:00.454Z</updated>
+  <updated>2018-02-04T08:47:36.635Z</updated>
   <id>http://sharingstack.com/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>123</title>
+    <link href="http://sharingstack.com/blog/123/"/>
+    <id>http://sharingstack.com/blog/123/</id>
+    <published>2018-02-04T08:47:16.000Z</published>
+    <updated>2018-02-04T08:47:36.635Z</updated>
+    
+    <content type="html"><![CDATA[<p>asdfasd</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;asdfasd&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>关于祖传代码的那些事儿</title>
@@ -56,7 +76,7 @@
     <content type="html"><![CDATA[<p>很快，这2016年就要过去了。回头盘点一二，权作总结与个人激励。</p>
 <h1 id="技术"><a href="#技术" class="headerlink" title="技术"></a>技术</h1><p>这两年看了不少书，不过算到今年来说，书看的却并不多——似乎有了点无招胜有招的味道（老脸一红）——而是把更多的空闲时间放在思考上面了。</p>
 <a id="more"></a>
-<p>不过这里提几本书，一本是<a href="www.chenshuo.com">陈硕</a>大神的<a href="https://book.douban.com/subject/20471211/" target="_blank" rel="external">《Linux多线程服务端编程·使用muduo C++网络库》</a>，然而说实话，犹豫APUE没啃到位，加之工程实践方面的经验不足，该大作无法全部领会其精要。就可以读懂的内容来说，其间真意，不愧为大师匠心。</p>
+<p>不过这里提几本书，一本是<a href="www.chenshuo.com">陈硕</a>大神的<a href="https://book.douban.com/subject/20471211/" target="_blank" rel="noopener">《Linux多线程服务端编程·使用muduo C++网络库》</a>，然而说实话，犹豫APUE没啃到位，加之工程实践方面的经验不足，该大作无法全部领会其精要。就可以读懂的内容来说，其间真意，不愧为大师匠心。</p>
 <p>刚才也提到了，APUE这部神作，邂逅稍晚，加之时间有限，并没有很好的啃完，挑着看了些，欠缺依旧，终得找个时间补回来才是。</p>
 <p>原本想捣鼓下STL源码，也确实捣鼓了一周左右，不过终究没有坚持下去，这也总是个债。</p>
 <p>至于其他，把Python捡回来了，应同学之请，写个C代码格式化脚本，然而写到后来发现简直是要写C语言的解释器，之后不了了之，也是个遗憾。</p>
