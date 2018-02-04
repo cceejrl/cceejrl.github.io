@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://sharingstack.com/"/>
-  <updated>2016-12-29T06:54:10.292Z</updated>
+  <updated>2018-02-04T08:28:00.454Z</updated>
   <id>http://sharingstack.com/</id>
   
   <author>
@@ -16,11 +16,42 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>关于祖传代码的那些事儿</title>
+    <link href="http://sharingstack.com/blog/%E5%85%B3%E4%BA%8E%E7%A5%96%E4%BC%A0%E4%BB%A3%E7%A0%81%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B%E5%84%BF/"/>
+    <id>http://sharingstack.com/blog/关于祖传代码的那些事儿/</id>
+    <published>2018-02-03T23:35:55.000Z</published>
+    <updated>2018-02-04T08:28:00.454Z</updated>
+    
+    <content type="html"><![CDATA[<p>新坑开了已经四个月余，说实话，刚进项目组就遇到比较大的项目，一开始内心还是比较激动的呢。</p>
+<p>然而，新坑并非一开始以为的所有一切从头开始，而是从“祖传代码”开始。</p>
+<p>说道该祖传代码，内心简直是绝望的。</p>
+<p>你见过无数函数动辄两三千行起步的吗？</p>
+<p>面对一个2.3W行的函数就说你怕不怕？ 2.3W行啊亲！</p>
+<p>面对无数temp1, temp2， tempnew1, tempnew2你有何感想？</p>
+<p>面对无数二重三重四重指针你又有什么获奖感言呢？</p>
+<p>MMP，所有的这些都在祖传代码中进行着倾情演绎，各种花式new delete却不置NULL的野指针到处飞起！</p>
+<p>各种全局变量到处extern…</p>
+<p>我是谁？我在哪里？我要做什么？我经历了什么？黑人.JPG</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;新坑开了已经四个月余，说实话，刚进项目组就遇到比较大的项目，一开始内心还是比较激动的呢。&lt;/p&gt;
+&lt;p&gt;然而，新坑并非一开始以为的所有一切从头开始，而是从“祖传代码”开始。&lt;/p&gt;
+&lt;p&gt;说道该祖传代码，内心简直是绝望的。&lt;/p&gt;
+&lt;p&gt;你见过无数函数动辄两三千行起步的吗？
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>16年小结</title>
     <link href="http://sharingstack.com/blog/16%E5%B9%B4%E5%B0%8F%E7%BB%93/"/>
     <id>http://sharingstack.com/blog/16年小结/</id>
     <published>2016-12-28T10:18:41.000Z</published>
-    <updated>2016-12-29T06:54:10.292Z</updated>
+    <updated>2018-02-04T07:57:27.687Z</updated>
     
     <content type="html"><![CDATA[<p>很快，这2016年就要过去了。回头盘点一二，权作总结与个人激励。</p>
 <h1 id="技术"><a href="#技术" class="headerlink" title="技术"></a>技术</h1><p>这两年看了不少书，不过算到今年来说，书看的却并不多——似乎有了点无招胜有招的味道（老脸一红）——而是把更多的空闲时间放在思考上面了。</p>
@@ -69,7 +100,7 @@
     <link href="http://sharingstack.com/blog/%E4%B8%80%E4%B8%9B%E8%8A%B1%E4%BB%A4/"/>
     <id>http://sharingstack.com/blog/一丛花令/</id>
     <published>2016-11-30T14:20:53.000Z</published>
-    <updated>2016-11-30T14:24:02.180Z</updated>
+    <updated>2018-02-04T07:57:27.687Z</updated>
     
     <content type="html"><![CDATA[<p>一丛花令·枉凝眉</p>
 <p>遄行客路欲何穷，野马啸东风。<br>故园西巷秋千荡，未旋踵、柳絮蒙蒙。<br>历历沉思，笑颜依旧，盟誓转头空。</p>
