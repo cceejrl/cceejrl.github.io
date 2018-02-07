@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="杂合集," />
 
 
 
@@ -79,19 +79,20 @@
 
 
 
-<meta name="description" content="心血来潮，Ctrl+Alt+T打开terminal之后右键看见可以设置首选项，emmmm，作为好奇宝宝，有必要看看可以做什么设置。 一通风骚走位之后点击OK,看看效果如何，exit后流利的Ctrl+Alt+T，WTF，terminal一闪而逝，哦，剧本写错了。 寄出搜索引擎“how to reset terminal profile on ubuntu”,”terminal cannot open">
+<meta name="description" content="心血来潮，Ctrl+Alt+T打开terminal之后右键看见可以设置首选项，emmmm，作为好奇宝宝，有必要看看可以做什么设置。 一通风骚走位之后点击OK,看看效果如何，exit后流利的Ctrl+Alt+T，WTF，terminal一闪而逝，哦，剧本写错了。">
+<meta name="keywords" content="杂合集">
 <meta property="og:type" content="article">
 <meta property="og:title" content="手贱设置gnome-terminal之Profile Prefferences之后">
 <meta property="og:url" content="http://sharingstack.com/blog/手贱设置gnome-terminal之Profile-Prefferences之后/index.html">
 <meta property="og:site_name" content="静渊阁">
-<meta property="og:description" content="心血来潮，Ctrl+Alt+T打开terminal之后右键看见可以设置首选项，emmmm，作为好奇宝宝，有必要看看可以做什么设置。 一通风骚走位之后点击OK,看看效果如何，exit后流利的Ctrl+Alt+T，WTF，terminal一闪而逝，哦，剧本写错了。 寄出搜索引擎“how to reset terminal profile on ubuntu”,”terminal cannot open">
+<meta property="og:description" content="心血来潮，Ctrl+Alt+T打开terminal之后右键看见可以设置首选项，emmmm，作为好奇宝宝，有必要看看可以做什么设置。 一通风骚走位之后点击OK,看看效果如何，exit后流利的Ctrl+Alt+T，WTF，terminal一闪而逝，哦，剧本写错了。">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://p3sbcwagu.bkt.clouddn.com/dconf_dump.png">
 <meta property="og:image" content="http://p3sbcwagu.bkt.clouddn.com/image/png/dconf_write.png">
-<meta property="og:updated_time" content="2018-02-07T15:01:37.948Z">
+<meta property="og:updated_time" content="2018-02-07T15:11:54.643Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="手贱设置gnome-terminal之Profile Prefferences之后">
-<meta name="twitter:description" content="心血来潮，Ctrl+Alt+T打开terminal之后右键看见可以设置首选项，emmmm，作为好奇宝宝，有必要看看可以做什么设置。 一通风骚走位之后点击OK,看看效果如何，exit后流利的Ctrl+Alt+T，WTF，terminal一闪而逝，哦，剧本写错了。 寄出搜索引擎“how to reset terminal profile on ubuntu”,”terminal cannot open">
+<meta name="twitter:description" content="心血来潮，Ctrl+Alt+T打开terminal之后右键看见可以设置首选项，emmmm，作为好奇宝宝，有必要看看可以做什么设置。 一通风骚走位之后点击OK,看看效果如何，exit后流利的Ctrl+Alt+T，WTF，terminal一闪而逝，哦，剧本写错了。">
 <meta name="twitter:image" content="http://p3sbcwagu.bkt.clouddn.com/dconf_dump.png">
 
 
@@ -314,14 +315,22 @@
       
         <p>心血来潮，Ctrl+Alt+T打开terminal之后右键看见可以设置首选项，emmmm，作为好奇宝宝，有必要看看可以做什么设置。</p>
 <p>一通风骚走位之后点击OK,看看效果如何，exit后流利的Ctrl+Alt+T，WTF，terminal一闪而逝，哦，剧本写错了。</p>
-<p>寄出搜索引擎“how to reset terminal profile on ubuntu”,”terminal cannot open on ubuntu”,”where to find the profile prefferences config file”,胡乱找了一圈，在一个犄角旮旯里找到了一句：</p>
+<a id="more"></a>
+<p>寄出搜索引擎“how to reset terminal profile on ubuntu”,”terminal cannot open on ubuntu”,”where to find the profile prefferences config file of terminal on ubuntu”,胡乱找了一圈，在一个犄角旮旯里找到了一句：</p>
+<blockquote>
 <p>dconf dump /org/gnome/terminal/legacy/profiles:/</p>
+</blockquote>
 <p><img src="http://p3sbcwagu.bkt.clouddn.com/dconf_dump.png" alt="dconf dump示意图"></p>
 <p>当然我这里是已经恢复的结果，比如我当时手贱，将use-custom-command勾选了，并在custom-command中设置了一个可能与terminal有冲突的命令。</p>
 <p>到了这一步，就可以手动修改了，比如我要把use-custom-command改为false，那么使用dconf write进行修改配置：</p>
+<blockquote>
 <p>dconf write /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/use-custom-command false</p>
+</blockquote>
 <p>以上语法如下：<br><img src="http://p3sbcwagu.bkt.clouddn.com/image/png/dconf_write.png" alt="dconf write命令帮助"></p>
-<p>更多参考可见：<br>dconf help</p>
+<p>更多参考可见：</p>
+<blockquote>
+<p>dconf help</p>
+</blockquote>
 <p>真是愉快的一天，好奇心害死喵。</p>
 
       
@@ -337,6 +346,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/杂合集/" rel="tag"># 杂合集</a>
+          
+        </div>
       
 
       
@@ -449,7 +464,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
